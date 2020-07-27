@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: darkgreen;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar__logo{
+    border-bottom: solid 5px darkgreen;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.navbar__items, .navbar__login{
+    display: flex;
+}
+.navbar__items{
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar__items a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: darkgreen;
+    
+}
+.navbar__items a:visited{
+    text-decoration: none;
+    text-emphasis: none;
+    color: darkgreen;
+}
+.navbar__items li{
+    margin: 0 20px;
+}
+.navbar li{
+    list-style: none;
+}

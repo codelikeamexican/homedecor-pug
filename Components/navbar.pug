@@ -4,8 +4,7 @@ header
             li INDOOR
         ul.navbar__items
             each navbaritem in navbaritems
-                li=navbaritem
+                a(href="#"+navbaritem) 
+                    li=navbaritem
         a.navbar__login
-            img(src="/")
-            li LOGIN
-            
+            li Log in

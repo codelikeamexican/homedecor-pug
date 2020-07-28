@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
+/*Navbar section*/
 .navbar{
     margin: 30px;
     display: flex;
@@ -47,4 +47,49 @@ body{
 }
 .navbar li{
     list-style: none;
+}
+
+/*header*/
+
+.hero{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: lightgray;
+    height: Calc(100vh);
+}
+
+.hero__container{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+    flex-direction: column;
+}
+.hero__info{
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    background-color:rgba(128, 166, 173, 1);
+    color:#405357;
+    padding: 60px;
+}
+.hero__info--title{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.hero__info--subtitle{
+    color:white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom: solid 2px #405357;
+    width: fit-content;
+}
+
+.hero__carrousel--image img{
+    object-fit: cover;
+    height: 420px;
+    width: 500px;  
 }

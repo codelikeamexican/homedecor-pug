@@ -61,7 +61,7 @@ body{
 .hero__container{
     grid-column-start: 2;
     display: grid;
-    grid-template-columns: repeat(2,500px);
+    grid-template-columns: repeat(2,550px);
     justify-content: center;
     flex-direction: column;
 }
@@ -91,5 +91,5 @@ body{
 .hero__carrousel--image img{
     object-fit: cover;
     height: 420px;
-    width: 500px;  
+    width: 550px;  
 }

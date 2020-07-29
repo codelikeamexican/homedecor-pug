@@ -1,1 +1,14 @@
 -var navbaritems=["Home","Decor","Kitchen","Bedroom","About","Contact"]
+
+mixin rigthBox(img,img1,img2,img3,title)
+    .rightbox
+        .rightbox__full
+            img(src="Images/"+img)
+        .rightbox__two
+              img(src="Images/"+img1)
+              img(src="Images/"+img2)
+        .rigthbox__title
+            .rightbox__title--item
+                h1=title
+                img(src="Images/"+img3)
+        

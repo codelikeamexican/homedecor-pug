@@ -53,15 +53,13 @@ body{
 
 .hero{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
     background-color: lightgray;
-    height: Calc(100vh);
+    height: auto
 }
 
 .hero__container{
-    grid-column-start: 2;
     display: grid;
-    grid-template-columns: repeat(2,550px);
+    grid-template-columns: repeat(2,600px);
     justify-content: center;
     flex-direction: column;
 }
@@ -95,3 +93,70 @@ body{
 }
 /*----- Rigth box -------*/
 
+.content{
+    display: grid;
+    background-color: lightgray;
+    height: auto
+}
+
+.rightbox{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.rightbox__full img{
+    object-fit: cover;
+    padding: 10px 0px;
+    width: 370px;
+    height: 750px;
+}
+.rightbox__two{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+.rightbox__two img
+{
+    object-fit: cover;
+    padding: 10px;
+    width: 365px;
+    height: 365px;
+
+}
+
+
+
+.rightbox__title {
+    width: 345px;
+    height: 150px;
+    background-color:rgba(128, 166, 173, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightbox__title--item img{
+    margin: 10px 0px;
+    width: 345px;
+    height: 580px;
+    object-fit: cover;
+}
+
+.rigthbox__title h1{
+    margin:0;
+    background-color:rgba(128, 166, 173, 1);
+    width: 345px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}

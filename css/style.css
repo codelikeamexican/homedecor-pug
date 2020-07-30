@@ -53,7 +53,7 @@ body{
 
 .hero{
     display: grid;
-    background-color: lightgray;
+    background-color:#F4EAE7;
     height: auto
 }
 
@@ -95,11 +95,11 @@ body{
 
 .content{
     display: grid;
-    background-color: lightgray;
+    background-color: #F4EAE7;
     height: auto
 }
 
-.rightbox{
+.rightbox, .leftbox{
     display: grid;
     grid-template-columns: repeat(3,400px);
     justify-content: center;
@@ -107,13 +107,16 @@ body{
 
 }
 
-.rightbox__full img{
+.rightbox__full img
+{
     object-fit: cover;
     padding: 10px 0px;
     width: 370px;
     height: 750px;
 }
-.rightbox__two{
+
+.rightbox__two
+{
     display: flex;
     flex-direction: column;
     height: auto;
@@ -129,9 +132,8 @@ body{
 
 }
 
-
-
-.rightbox__title {
+.rightbox__title
+{
     width: 345px;
     height: 150px;
     background-color:rgba(128, 166, 173, 1);
@@ -140,17 +142,73 @@ body{
 }
 
 
-.rightbox__title--item img{
+.rightbox__title--item img
+{
     margin: 10px 0px;
     width: 345px;
     height: 580px;
     object-fit: cover;
 }
 
-.rigthbox__title h1{
+.rigthbox__title h1
+{
     margin:0;
     background-color:rgba(128, 166, 173, 1);
     width: 345px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+/*  */
+
+
+
+.leftbox__full img
+{
+    object-fit: cover;
+    padding: 10px 10px;
+    width: 365px;
+    height: 750px;
+}
+
+.leftbox__two
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+.leftbox__two img
+{
+    object-fit: cover;
+    padding: 10px 0px;
+    width: 345px;
+    height: 365px;
+
+}
+
+
+
+.leftbox__title--item img
+{
+    margin: 10px 0px;
+    width: 365px;
+    height: 580px;
+    object-fit: cover;
+}
+
+.leftbox__title h1
+{
+    margin:0;
+    background-color:rgba(128, 166, 173, 1);
+    width: 370px;
     height: 150px;
     display: flex;
     justify-content: center;

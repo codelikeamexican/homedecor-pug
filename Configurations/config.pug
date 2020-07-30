@@ -11,4 +11,15 @@ mixin rigthBox(img,img1,img2,img3,title)
             h1=title
             .rightbox__title--item
                 img(src="Images/"+img3)
+mixin leftBox(img,img1,img2,img3,title)
+    .leftbox
+        .leftbox__title
+            h1=title
+            .leftbox__title--item
+                img(src="Images/"+img3)
+        .leftbox__full
+            img(src="Images/"+img)
+        .leftbox__two
+              img(src="Images/"+img1)
+              img(src="Images/"+img2)
         

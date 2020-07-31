@@ -220,3 +220,53 @@ body{
 }
 /****FOOTER****/
 
+footer {
+    margin: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .content{
+    padding:50px;
+    background-color:rgba(128, 166, 173, 1);
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+    color: white;
+}
+footer p{
+    margin:0;
+}
+.content_subscription{
+    display: flex;
+    flex-direction: column;
+}
+.content_subscription--box{
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid white;
+    color:white;
+    height: 30px;
+    
+}
+.content__subscription--botton{
+    height: 30px;
+    margin: 10px 0px;
+    box-shadow: none;
+    background-color:rgba(64, 83, 87, 1);
+    border: none;
+    color: white;
+}
+::placeholder {
+    margin: 0px 20px;
+    color: white;
+}
+footer .createdby{
+    padding: 20px;
+    display: flex;
+   background-color:rgba(64, 83, 87, 1);
+   justify-content: center;
+   align-content: center;
+   color:white;
+}

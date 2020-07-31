@@ -1,13 +1,8 @@
-include Configurations/config.pug
-doctype html
-head
-    meta(charset="UTF-8")
-    link(rel="stylesheet",href='css/style.css')
-html
-    include Components/navbar.pug
-    include Components/hero.pug
-    section.content
+
+extends template.pug
+append contenidos
+ section.content
         +rigthBox("decor/decor.jpg","decor/decor1.jpg","decor/decor4.jpg","decor/decor3.jpg","decor")
         +leftBox("kitchen/kitchen.jpg","kitchen/kitchen1.jpg","kitchen/kitchen2.jpg","kitchen/kitchen3.jpg","kitchen")
         +rigthBox("bedroom/bedroom1.jpg","bedroom/bedroom2.jpg","bedroom/bedroom3.jpg","bedroom/bedroom4.jpg","bedroom")
-    include Components/footer.pug
+        
